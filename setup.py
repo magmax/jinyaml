@@ -2,10 +2,16 @@ from setuptools import setup
 
 import jinyaml
 
+
+def read_description():
+    with open("README.rst") as fd:
+        return fd.read()
+
+
 setup(
     name="jinyaml",
     version=jinyaml.__version__,
-    description=(),
+    description=read_description(),
     url="https://github.com/magmax/sphinx-jinyaml",
     license="MIT",
     classifiers=[
