@@ -11,7 +11,8 @@ def read_description():
 setup(
     name="jinyaml",
     version=jinyaml.__version__,
-    description=read_description(),
+    # long_description=read_description(),
+    description="Plugin for sphinx to use Jinja in documents",
     url="https://github.com/magmax/sphinx-jinyaml",
     license="MIT",
     classifiers=[
