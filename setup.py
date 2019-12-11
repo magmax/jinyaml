@@ -9,7 +9,7 @@ def read_description():
 
 
 setup(
-    name="jinyaml",
+    name="sphinx-jinyaml",
     version=jinyaml.__version__,
     # long_description=read_description(),
     description="Plugin for sphinx to use Jinja in documents",
